@@ -1,4 +1,4 @@
-package com.shooting-mq.http.pipeline.dto;
+package com.shooting-bus.http.pipeline.dto;
 
 import com.dashu.center.config.log.util.LogJsonUtils;
 import com.fasterxml.jackson.annotation.JsonFormat;

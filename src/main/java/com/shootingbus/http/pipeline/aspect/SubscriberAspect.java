@@ -1,7 +1,7 @@
-package com.shooting-mq.http.pipeline.aspect;
+package com.shooting-bus.http.pipeline.aspect;
 
-import com.shooting-mq.http.pipeline.annotation.Subscriber;
-import com.shooting-mq.http.pipeline.dto.MessageDTO;
+import com.shooting-bus.http.pipeline.annotation.Subscriber;
+import com.shooting-bus.http.pipeline.dto.MessageDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Slf4j
 public class SubscriberAspect {
-    @Pointcut("@annotation(com.shooting-mq.http.pipeline.annotation.Subscriber)")
+    @Pointcut("@annotation(com.shooting-bus.http.pipeline.annotation.Subscriber)")
     private void SubscriberAspect() {
     }
 

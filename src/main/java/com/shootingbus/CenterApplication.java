@@ -1,4 +1,4 @@
-package com.shooting-mq;
+package com.shooting-bus;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

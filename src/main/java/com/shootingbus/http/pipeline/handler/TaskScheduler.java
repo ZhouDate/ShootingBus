@@ -1,7 +1,7 @@
-package com.shooting-mq.http.pipeline.handler;
+package com.shooting-bus.http.pipeline.handler;
 
-import com.shooting-mq.http.pipeline.annotation.Subscriber;
-import com.shooting-mq.http.pipeline.dto.MessageDTO;
+import com.shooting-bus.http.pipeline.annotation.Subscriber;
+import com.shooting-bus.http.pipeline.dto.MessageDTO;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;

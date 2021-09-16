@@ -1,8 +1,8 @@
-package com.shooting-mq.http.pipeline.aspect;
+package com.shooting-bus.http.pipeline.aspect;
 
-import com.shooting-mq.http.pipeline.annotation.Publisher;
-import com.shooting-mq.http.pipeline.dto.MessageDTO;
-import com.shooting-mq.http.pipeline.handler.TaskScheduler;
+import com.shooting-bus.http.pipeline.annotation.Publisher;
+import com.shooting-bus.http.pipeline.dto.MessageDTO;
+import com.shooting-bus.http.pipeline.handler.TaskScheduler;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -23,7 +23,7 @@ public class PublisherAspect {
     @Autowired
     private TaskScheduler taskScheduler;
 
-    @Pointcut("@annotation(com.shooting-mq.http.pipeline.annotation.Publisher)")
+    @Pointcut("@annotation(com.shooting-bus.http.pipeline.annotation.Publisher)")
     public void PublisherAspect() {
     }
 
